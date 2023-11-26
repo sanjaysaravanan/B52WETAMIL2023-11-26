@@ -1,0 +1,96 @@
+
+Topics:
+
+  Bootstrap Intro ( https://getbootstrap.com/docs/5.1/getting-started/introduction/ )
+
+  Bootstrap Setup & usage
+    built-in classes with CSS or JS functions already Setup or template starter codes
+
+      Eg: Utilities in Bootstrap
+
+    components or templates
+
+    RWD in Bootstrap
+
+    few starter exmaples
+
+  Container
+
+  few More Starter Examples
+
+  12 Column System
+    Grid-Sysytem:
+    12 Column System
+      col-1 ---> 12 / 1 ---> 12 width ---> 100 / 12 ---> 8.33333
+      col-2 ---> 12 / 2 ---> 6  width ---> 100 / 6  ---> 16.6667
+      col-3 ---> 12 / 3 ---> 4  width ---> 100 / 4  ---> 25
+      col-4 ---> 12 / 4 ---> 3  width ---> 100 / 3 ----> 33.333
+      .
+      col-6 ---> 12 / 6 ---> 2 width ---> 100 / 2 ---> 50
+      .
+      col-8 ---> 12 / 8 ---> 3 / 2 width ---> 100 / (3/2) ---> 200 / 3 ---> 66.666667
+      col-12 --> 12 / 12 --> 1  width ---> 100 / 1 ---> 100
+
+    column prefix
+      using device specs with the col number
+      eg: col-sm-2 col-md-4 col-lg-8
+
+    nested columns
+      just nesting the same col prefix structure
+  
+  animation:
+    transition on rendering
+
+Task Samples & Reference:
+
+  slanted div and text border
+    https://codepen.io/LarryAnomie/pen/poLNbE
+    http://jsfiddle.net/san6gko7/5/
+
+  star rating & text area UI https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_star_rating
+    nth child, odd child in table
+    table Reference https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro
+
+Next Session:
+  pseudo-class:
+  Document --> HTML file
+
+  DOM --> Document Object Model ( Tree )
+  HTML
+    | ---> HEAD ---> Site Information
+            | ---> META, TITLE 
+    | ---> BODY ---> Site Interface
+            | ---> P, A, DIV, H1
+
+  with the help of document object we can manipualte the content in a website
+
+  DOM Element - element/node/tag
+
+  DOM Manipulation script should follow the following,
+    1. Should be the last child of the body
+                    or
+    2. using defer attribute in the script added in head tag
+      if defer is used parser will not execute the js untill the DOM is completely rendered
+
+  createElement --> 
+    Create Node/Tag/HTMLElement by passing string tagName
+      eg: document.createElement('h1') --> creates h1 element which can be used in the JS
+  
+  setAttribute:
+    set an attribute to element/node/tag eg: <element>.setAttribute( 'src', 'https://some.com/image.jpg' );
+  
+  appendChild vs append
+
+    appendChild ---> takes only one element as an arguement and adds that as child to the calling tag and returns the appended tag/element
+
+    append ---> takes one/more elements/string as arguments and adds all the arguments as child to the calling tag and returns nothing (undefined)
+
+  
+  innerHTML vs innerText ( attributes of a element or node or tag )
+
+    innerHTML --> renders the string value by marking up any tags in string
+    innerText --> renders only the string value without any marking up
+
+  style:
+    set any style prop value <element>.style.backgroundColor ( camelCase )
+    <element>.style.borderRadius = '10px';

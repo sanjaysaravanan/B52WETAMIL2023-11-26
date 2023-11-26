@@ -41,15 +41,13 @@ Topics:
   animation:
     transition on rendering
 
-Task Samples & Reference:
+Task:
+  Complete the task,
+  Day 11:
+    From the below Title you can pick any two and complete them with responsive design.
 
-  slanted div and text border
-    https://codepen.io/LarryAnomie/pen/poLNbE
-    http://jsfiddle.net/san6gko7/5/
-
-  star rating & text area UI https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_star_rating
-    nth child, odd child in table
-    table Reference https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro
+    For your reference visit this URL 
+    https://github.com/rvsp/HTML-CSS/tree/master/Tasks
 
 Next Session:
   pseudo-class:

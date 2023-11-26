@@ -43,7 +43,7 @@ Topics:
 
 Task:
   Complete the task,
-  Day 11:  ( You can do with or without boostrap )
+  Day 11:  ( ** You can do with or without boostrap ** )
     From the below Title you can pick any two and complete them with responsive design.
 
     For your reference visit this URL 
